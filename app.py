@@ -11,14 +11,12 @@ import os
 app = Flask(__name__, static_folder="../frontend", static_url_path="")
 CORS(app)
 
-# ── Config MySQL ────────────────────────────────────────────────────────────
 DB_CONFIG = {
-    "host":     os.getenv("DB_HOST",     "localhost"),
-    "port":     int(os.getenv("DB_PORT", 3306)),
-    "user":     os.getenv("DB_USER",     "root"),
-    "password": os.getenv("DB_PASSWORD", ""),
-    "database": os.getenv("DB_NAME",     "Formula1_2026"),
-    "charset":  "utf8mb4",
+    "host":     "localhost",
+    "port":     3306,
+    "user":     "root",
+    "password": "12345678",  
+    "database": "Formula1_2026",
 }
 
 
