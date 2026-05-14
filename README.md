@@ -43,12 +43,3 @@ python app.py
 Abra `03_Frontend/index.html` no navegador.
 
 ---
-
-## 📁 Estrutura do Projeto
-
-```
-├── 01_SQL/           → Script DDL + DML completo
-├── 02_Backend/       → API REST em Flask
-├── 03_Frontend/      → Interface web (HTML/CSS/JS)
-└── 04_Docs/          → Documentação e requisitos
-```
